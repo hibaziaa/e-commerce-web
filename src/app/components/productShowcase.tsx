@@ -21,7 +21,7 @@ export default function Products(){
     return(
         <>
         <h1 className={`${poppins.className} font-bold text-[32px] leading-[38.4px] text-center mt-20 uppercase md:text-5xl md:leading-[57.6px] `}>New Arrivals</h1>
-        <div className="flex mx-[100px] gap-4 mt-9">
+        <div className="flex mx-[100px] gap-8 mt-9">
         {/* 1st product  */}
         <div className={`${satoshi.className}`}>
             {/* product image */}
@@ -120,10 +120,11 @@ export default function Products(){
        </div>
        {/* button div  */}
         <div className="flex justify-center items-center">
-       <button className={`w-[218px] h-[52px] rounded-[62px] py-4 px-[54px] border-[1px] border-[#0000001A] text-base font-medium leading-[21.6px] ${satoshi.className} mt-10`}>
+       <button className={`w-[218px] h-[52px] rounded-[62px] py-4 px-[54px] border-[1px] border-[#0000001A] text-base font-medium leading-[21.6px] hover:bg-black hover:text-white transition-colors duration-300  ${satoshi.className} mt-10`}>
         View All
        </button></div>
        {/* horizontal rule  */}
+       <hr className="mx-[100px] my-[50px] border-[1px] border-[#0000001A] " />
         </>
     )
 }
