@@ -21,7 +21,7 @@ const satoshi = localFont({
 export default function Styles() {
     return (
       <>
-     <div className="grid grid-cols-1 md:grid-cols-10 w-[358px] h-[975px] mx-4 rounded-[20px] bg-[#f0f0f0] mt-12 md:w-[90%] md:mx-auto md:h-[866px]">
+     <div className="grid grid-cols-1 md:grid-cols-10 w-[358px] h-[975px] mx-4 rounded-[20px] bg-[#f0f0f0] mt-12 md:w-[90%] md:mx-auto md:h-[866px] md:mt-20">
   {/* H1 spans the full width of the grid */}
   <div className="col-span-1 md:col-span-10">
     <h1
@@ -33,7 +33,7 @@ export default function Styles() {
 
   {/* First Background Image: 40% */}
   <div
-    className="md:col-span-4 h-[190px] mx-4 rounded-[20px] bg-cover bg-center relative md:h-[289px]"
+    className="md:col-span-4 h-[190px] mx-4 rounded-[20px] bg-cover bg-center relative md:h-[289px] md:ml-10"
     style={{ backgroundImage: "url('/assets/stylesOne.png')" }}
   >
     <h2
@@ -45,7 +45,7 @@ export default function Styles() {
 
   {/* Second Background Image: 60% */}
   <div
-    className="md:col-span-6 h-[190px] mx-4 rounded-[20px] bg-cover bg-center relative md:h-[289px]"
+    className="md:col-span-6 h-[190px] mx-4 rounded-[20px] bg-cover bg-center relative md:h-[289px] md:mr-10"
     style={{ backgroundImage: "url('/assets/stylesTwo.png')" }}
   >
     <h2
@@ -57,7 +57,7 @@ export default function Styles() {
 
   {/* Third Background Image: 60% */}
   <div
-    className="md:col-span-6 h-[190px] mx-4 rounded-[20px] bg-cover bg-center relative md:h-[289px]"
+    className="md:col-span-6 h-[190px] mx-4 rounded-[20px] bg-cover bg-center relative md:h-[289px] md:ml-10"
     style={{ backgroundImage: "url('/assets/stylesThree.png')" }}
   >
     <h2
@@ -69,7 +69,7 @@ export default function Styles() {
 
   {/* Fourth Background Image: 40% */}
   <div
-    className="md:col-span-4 h-[190px] mx-4 rounded-[20px] bg-cover bg-center relative md:h-[289px]"
+    className="md:col-span-4 h-[190px] mx-4 rounded-[20px] bg-cover bg-center relative md:h-[289px] md:mr-10"
     style={{ backgroundImage: "url('/assets/stylesFour.png')" }}
   >
     <h2
