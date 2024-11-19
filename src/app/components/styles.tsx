@@ -25,7 +25,7 @@ export default function Styles() {
   {/* H1 spans the full width of the grid */}
   <div className="col-span-1 md:col-span-10">
     <h1
-      className={`${poppins.className} uppercase w-full text-center font-bold text-4xl leading-[36px] mt-8 md:mt-24 md:mb-8 md:leadng-[57.6px] md:text-5xl`}
+      className={`${poppins.className} uppercase w-full text-center font-bold text-4xl leading-[36px] mt-8 md:mt-20 md:mb-8 md:leadng-[57.6px] md:text-5xl`}
     >
       browse by dress style
     </h1>
@@ -37,7 +37,7 @@ export default function Styles() {
     style={{ backgroundImage: "url('/assets/stylesOne.png')" }}
   >
     <h2
-      className={`${satoshi.className} absolute top-4 left-6 text-black text-2xl leading-[32.4px] font-bold`}
+      className={`${satoshi.className} absolute top-4 left-6 text-black text-2xl leading-[32.4px]  font-bold md:top-[25px] md:left-9 md:text-4xl md:leading-[48.6px]  `}
     >
       Casual
     </h2>
@@ -49,7 +49,7 @@ export default function Styles() {
     style={{ backgroundImage: "url('/assets/stylesTwo.png')" }}
   >
     <h2
-      className={`${satoshi.className} absolute top-4 left-6 text-black text-2xl leading-[32.4px] font-bold`}
+      className={`${satoshi.className} absolute top-4 left-6 text-black text-2xl leading-[32.4px]  font-bold md:top-[25px] md:left-9 md:text-4xl md:leading-[48.6px]  `}
     >
       Formal
     </h2>
@@ -61,7 +61,7 @@ export default function Styles() {
     style={{ backgroundImage: "url('/assets/stylesThree.png')" }}
   >
     <h2
-      className={`${satoshi.className} absolute top-4 left-6 text-black text-2xl leading-[32.4px] font-bold`}
+      className={`${satoshi.className} absolute top-4 left-6 text-black text-2xl leading-[32.4px]  font-bold md:top-[25px] md:left-9 md:text-4xl md:leading-[48.6px] `}
     >
       Party
     </h2>
@@ -73,7 +73,7 @@ export default function Styles() {
     style={{ backgroundImage: "url('/assets/stylesFour.png')" }}
   >
     <h2
-      className={`${satoshi.className} absolute top-4 left-6 text-black text-2xl leading-[32.4px] font-bold`}
+      className={`${satoshi.className} absolute top-4 left-6 text-black text-2xl leading-[32.4px]  font-bold md:top-[25px] md:left-9 md:text-4xl md:leading-[48.6px] `}
     >
       Gym
     </h2>
