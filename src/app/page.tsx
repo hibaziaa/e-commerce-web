@@ -3,6 +3,7 @@ import Hero from "./components/hero";
 import Brands from "./components/brands";
 import Products from "./components/productShowcase";
 import TopSellingProducts from "./components/topSellingProducts";
+import Styles from "./components/styles";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Brands />
       <Products />
       <TopSellingProducts/>
+      <Styles />
     </>
   );
 }
