@@ -36,7 +36,7 @@ export default function Hero() {
             style.
           </p>
           <button
-            className={`bg-black w-[358px] h-[52px] mt-5 mx-4 rounded-[62px] py-[10px] px-[52px] ${satoshi.variable} text-white md:w-[210px] md:ml-[100px] md:mt-7 hover:bg-white hover:text-black border-2 border-black transition duration-300 box-border`}
+            className={`bg-black w-[358px] h-[52px] mt-5 mx-4 rounded-[62px] py-[10px] px-[52px] ${satoshi.variable} text-white md:w-[210px] md:ml-[100px] md:mt-7 hover:bg-white hover:text-[#00000099] border-2 border-[#00000099] transition duration-300 box-border`}
           >
             Shop Now
           </button>
