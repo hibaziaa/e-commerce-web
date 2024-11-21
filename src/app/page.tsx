@@ -6,6 +6,7 @@ import TopSellingProducts from "./components/topSellingProducts";
 import Styles from "./components/styles";
 import Reviews from "./components/reviews";
 import Subscription from "./components/subscription";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -14,10 +15,13 @@ export default function Home() {
       <Hero />
       <Brands />
       <Products />
-      <TopSellingProducts/>
+      <TopSellingProducts />
       <Styles />
       <Reviews />
-      <Subscription />
+      <div className="relative">
+        <Subscription />
+        <Footer />
+      </div>
     </>
   );
 }

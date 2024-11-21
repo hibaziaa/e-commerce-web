@@ -20,6 +20,7 @@ const satoshi = localFont({
 export default function Subscription (){
     return(
         <>
+        <div className="absolute bottom-[80%] z-10">
         <div className="bg-black md:h-[180px] md:mx-[100px] rounded-[20px] md:py-9 md:px-16 flex md:justify-between md:w-[1240px] md:mt-24 flex-col md:flex-row mx-4 mt-10 h-[293px] w-[358px] md:items-center px-6 pt-10 gap-5">
            <div className={`${poppins.className} font-bold md:leading-[45px] md:text-[40px] text-white md:h-[94px] md:w-[551px] h-[105px] w-[297px] text-[32px] leading-[35px]`}>
            STAY UPTO DATE ABOUT OUR LATEST OFFERS
@@ -30,7 +31,7 @@ export default function Subscription (){
      Subscribe to Newsletter
             </button>
            </div>
-        </div>
+        </div></div>
         </>
     )
 }
