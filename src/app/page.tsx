@@ -5,6 +5,7 @@ import Products from "./components/productShowcase";
 import TopSellingProducts from "./components/topSellingProducts";
 import Styles from "./components/styles";
 import Reviews from "./components/reviews";
+import Subscription from "./components/subscription";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <TopSellingProducts/>
       <Styles />
       <Reviews />
+      <Subscription />
     </>
   );
 }
