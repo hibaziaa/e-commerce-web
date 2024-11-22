@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      letterSpacing: {
+       '3px' : '3px'
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
