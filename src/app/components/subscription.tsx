@@ -27,7 +27,7 @@ export default function Subscription (){
            </div>
            <div className={`flex gap-3 flex-col ${satoshi.className}`}>
            <input type="email" placeholder="Enter your email address" className="md:w-[349px] md:h-[48px] rounded-[62px] bg-[#F0F0F0] py-3 px-4  bg-no-repeat bg-[url('/assets/mailIcon.png')] bg-[left_16px_center] pl-12 font-normal md:text-base md:leading-[21.6px] text-[#00000066] bg-size-custom w-[311px] h-[42px] text-[14px] leading-[18.9px]"/>
-            <button className="bg-[#F0F0F0] md:w-[349px] md:h-[46px] rounded-[62px] py-3 px-4 w-[311px] h-[42px] text-[14px] leading-[18.9px]">
+            <button className="bg-[#F0F0F0] md:w-[349px] md:h-[46px] rounded-[62px] py-3 px-4 w-[311px] h-[42px] text-[14px] leading-[18.9px] transition duration-300 hover:bg-gray-800 hover:text-[#f0f0f0] hover:shadow-lg">
      Subscribe to Newsletter
             </button>
            </div>
