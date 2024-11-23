@@ -15,7 +15,7 @@ export default function Footer() {
       <div
         className={` h-[846px] md:h-[499px] w-full bg-[#f0f0f0] mt-40 md:pt-40 pt-56 ${satoshi.className} text-[#00000099]`}
       >
-        <div className="md:mx-[100px] mx-4 flex justify-between md:flex-row flex-col">
+        <div className="md:mx-[100px] mx-4 flex md:flex-row flex-col md:justify-between items-start md:gap-16">
           {/* logo div  */}
           <div className="md:w-[248px] md:h-[177px] flex md:gap-[35px] md:mb-0 mb-8 flex-col gap-4">
             <img
@@ -34,8 +34,8 @@ export default function Footer() {
             />
           </div>
           {/* links section  */}
-          <div className="grid grid-cols-2 gap-4 md:flex md:gap-6">
-          <div className="capitalize flex flex-col md:gap-6 gap-2">
+          <div className="grid grid-cols-2 gap-10 md:flex md:gap-6 md:flex-grow md:justify-between ">
+          <div className="capitalize flex flex-col md:gap-6 gap-2 md:w-[104px] md:h-[177px]">
             <h1 className="font-medium md:text-base text-sm leading-[18px] tracking-3px text-black">
               company
             </h1>
@@ -55,11 +55,11 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="capitalize flex flex-col md:gap-6 gap-2">
+          <div className="capitalize flex flex-col md:gap-6 gap-2 md:w-[136px] md:h-[177px]">
             <h1 className="font-medium md:text-base text-sm leading-[18px] tracking-3px text-black ">
               help
             </h1>
-            <ul className="md:text-base text-sm md:leading-[19px] leading-[14px] md:w-[104px] md:h-[133px] h-[112px] w-[130px] flex flex-col md:gap-5 gap-3">
+            <ul className="md:text-base text-sm md:leading-[19px] leading-[14px] md:w-[149px] md:h-[133px] h-[112px] w-[130px] flex flex-col md:gap-5 gap-3">
               <li>
                 <a href="#">customer support</a>
               </li>
@@ -74,11 +74,11 @@ export default function Footer() {
               </li>
             </ul>{" "}
           </div>
-          <div className="capitalize flex flex-col md:gap-6 gap-2">
+          <div className="capitalize flex flex-col md:gap-6 gap-2 md:w-[149px] md:h-[177px]">
             <h1 className="font-medium md:text-base text-sm leading-[18px] tracking-3px text-black">
               FAQ
             </h1>
-            <ul className="md:text-base text-sm md:leading-[19px] leading-[14px] md:w-[104px] md:h-[133px] h-[112px] w-[130px] flex flex-col md:gap-5 gap-3">
+            <ul className="md:text-base text-sm md:leading-[19px] leading-[14px] md:w-[149px] md:h-[133px] h-[112px] w-[130px] flex flex-col md:gap-5 gap-3">
               <li>
                 <a href="#">account</a>
               </li>
@@ -93,11 +93,11 @@ export default function Footer() {
               </li>
             </ul>{" "}
           </div>
-          <div className="capitalize flex flex-col md:gap-6 gap-2">
+          <div className="capitalize flex flex-col md:gap-6 gap-2 md:w-[149px] md:h-[177px]">
             <h1 className="font-medium md:text-base text-sm leading-[18px] tracking-3px text-black">
               resources
             </h1>
-            <ul className="md:text-base text-sm md:leading-[19px] leading-[14px] md:w-[104px] md:h-[133px] h-[112px] w-[130px] flex flex-col md:gap-5 gap-3">
+            <ul className="md:text-base text-sm md:leading-[19px] leading-[14px] md:w-[149px] md:h-[133px] h-[112px] w-[130px] flex flex-col md:gap-5 gap-3">
               <li>
                 <a href="#" className="normal-case">
                   Free eBooks
