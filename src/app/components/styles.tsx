@@ -6,18 +6,14 @@ const poppins = Poppins({
   style: ["normal", "italic"],
   display: "swap",
 });
-import localFont from "next/font/local";
-const satoshi = localFont({
-  src: [
-    { path: "../fonts/satoshi-light.woff2", weight: "300", style: "normal" },
-    { path: "../fonts/satoshi-regular.woff2", weight: "400", style: "normal" },
-    { path: "../fonts/satoshi-medium.woff2", weight: "500", style: "normal" },
-    { path: "../fonts/satoshi-bold.woff2", weight: "700", style: "normal" },
-    { path: "../fonts/satoshi-black.woff2", weight: "900", style: "normal" },
-  ],
-  variable: "--font-satoshi",
-});
+import { Inter } from 'next/font/google';
 
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  style: ['normal', 'italic'],
+  display: 'swap',
+});
 export default function Styles() {
     return (
       <>
@@ -37,7 +33,7 @@ export default function Styles() {
     style={{ backgroundImage: "url('/assets/stylesOne.png')" }}
   >
     <h2
-      className={`${satoshi.className} absolute top-4 left-6 text-black text-2xl leading-[32.4px]  font-bold md:top-[25px] md:left-9 md:text-4xl md:leading-[48.6px]  `}
+      className={` absolute top-4 left-6 text-black text-2xl leading-[32.4px]  font-bold md:top-[25px] md:left-9 md:text-4xl md:leading-[48.6px] ${inter.className} `}
     >
       Casual
     </h2>
@@ -49,7 +45,7 @@ export default function Styles() {
     style={{ backgroundImage: "url('/assets/stylesTwo.png')" }}
   >
     <h2
-      className={`${satoshi.className} absolute top-4 left-6 text-black text-2xl leading-[32.4px]  font-bold md:top-[25px] md:left-9 md:text-4xl md:leading-[48.6px]  `}
+      className={` absolute top-4 left-6 text-black text-2xl leading-[32.4px]  font-bold md:top-[25px] md:left-9 md:text-4xl md:leading-[48.6px] ${inter.className}  `}
     >
       Formal
     </h2>
@@ -61,7 +57,7 @@ export default function Styles() {
     style={{ backgroundImage: "url('/assets/stylesThree.png')" }}
   >
     <h2
-      className={`${satoshi.className} absolute top-4 left-6 text-black text-2xl leading-[32.4px]  font-bold md:top-[25px] md:left-9 md:text-4xl md:leading-[48.6px] `}
+      className={` absolute top-4 left-6 text-black text-2xl leading-[32.4px]  font-bold md:top-[25px] md:left-9 md:text-4xl md:leading-[48.6px] ${inter.className} `}
     >
       Party
     </h2>
@@ -73,7 +69,7 @@ export default function Styles() {
     style={{ backgroundImage: "url('/assets/stylesFour.png')" }}
   >
     <h2
-      className={`${satoshi.className} absolute top-4 left-6 text-black text-2xl leading-[32.4px]  font-bold md:top-[25px] md:left-9 md:text-4xl md:leading-[48.6px] `}
+      className={` absolute top-4 left-6 text-black text-2xl leading-[32.4px]  font-bold md:top-[25px] md:left-9 md:text-4xl md:leading-[48.6px] ${inter.className}`}
     >
       Gym
     </h2>

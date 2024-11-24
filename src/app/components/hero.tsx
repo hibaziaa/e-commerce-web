@@ -6,17 +6,6 @@ const poppins = Poppins({
   style: ["normal", "italic"],
   display: "swap",
 });
-import localFont from "next/font/local";
-const satoshi = localFont({
-  src: [
-    { path: "../fonts/satoshi-light.woff2", weight: "300", style: "normal" },
-    { path: "../fonts/satoshi-regular.woff2", weight: "400", style: "normal" },
-    { path: "../fonts/satoshi-medium.woff2", weight: "500", style: "normal" },
-    { path: "../fonts/satoshi-bold.woff2", weight: "700", style: "normal" },
-    { path: "../fonts/satoshi-black.woff2", weight: "900", style: "normal" },
-  ],
-  variable: "--font-satoshi",
-});
 
 export default function Hero() {
   return (
@@ -29,19 +18,19 @@ export default function Hero() {
             FIND CLOTHES THAT MATCHES YOUR STYLE
           </h1>
           <p
-            className={`w-[358px] h-[50px] font-normal text-base text-[#00000099] leading-5 flex justify-center items-start m-4 ${satoshi.variable} mt-20 md:h-[33px] md:w-[545px] md:ml-[100px]  md:mt-28`}
+            className={`w-[358px] h-[50px] font-normal text-base text-[#00000099] leading-5 flex justify-center items-start m-4 mt-20 md:h-[33px] md:w-[545px] md:ml-[100px]  md:mt-28`}
           >
             Browse through our diverse range of meticulously crafted garments,
             designed to bring out your individuality and cater to your sense of
             style.
           </p>
           <button
-            className={`bg-black w-[358px] h-[52px] mt-5 mx-4 rounded-[62px] py-[10px] px-[52px] ${satoshi.variable} text-white md:w-[210px] md:ml-[100px] md:mt-7 hover:bg-white hover:text-[#00000099] border-2 border-[#00000099] transition duration-300 box-border`}
+            className={`bg-black w-[358px] h-[52px] mt-5 mx-4 rounded-[62px] py-[10px] px-[52px] text-white md:w-[210px] md:ml-[100px] md:mt-7 hover:bg-white hover:text-[#00000099] border-2 border-[#00000099] transition duration-300 box-border`}
           >
             Shop Now
           </button>
           <div
-            className={`flex justify-between h-[52px] w-[278px] mx-14 ${satoshi.variable} mt-6 md:h-[74px] md:w-[596px] md:ml-[100px] md:gap-8 md:mt-14`}
+            className={`flex justify-between h-[52px] w-[278px] mx-14 mt-6 md:h-[74px] md:w-[596px] md:ml-[100px] md:gap-8 md:mt-14`}
           >
             <div className="h-12 w-[118px] md:w-[141px] md:h-[74px]">
               <h1 className="font-bold leading-[32.4px] text-2xl md:text-[40px] md:leading-[54px]">

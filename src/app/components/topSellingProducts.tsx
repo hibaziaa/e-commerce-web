@@ -6,17 +6,6 @@ const poppins = Poppins({
   style: ["normal", "italic"],
   display: "swap",
 });
-import localFont from "next/font/local";
-const satoshi = localFont({
-  src: [
-    { path: "../fonts/satoshi-light.woff2", weight: "300", style: "normal" },
-    { path: "../fonts/satoshi-regular.woff2", weight: "400", style: "normal" },
-    { path: "../fonts/satoshi-medium.woff2", weight: "500", style: "normal" },
-    { path: "../fonts/satoshi-bold.woff2", weight: "700", style: "normal" },
-    { path: "../fonts/satoshi-black.woff2", weight: "900", style: "normal" },
-  ],
-  variable: "--font-satoshi",
-});
 export default function TopSellingProducts() {
   return (
     <>
@@ -27,7 +16,7 @@ export default function TopSellingProducts() {
       </h1>
       <div className="flex md:mx-[100px] gap-8 mt-9 ml-4 overflow-hidden">
         {/* 1st product  */}
-        <div className={`${satoshi.className} flex-shrink-0`}>
+        <div className={`flex-shrink-0`}>
           {/* product image */}
           <img
             src="/assets/productFive.png"
@@ -93,7 +82,7 @@ export default function TopSellingProducts() {
         </div>
         {/* 2nd product  */}
         <div
-          className={`${satoshi.className} flex-shrink-0 max-w-[390px] overflow-hidden sm:max-w-full`}
+          className={` flex-shrink-0 max-w-[390px] overflow-hidden sm:max-w-full`}
         >
           {/* product image */}
           <img
@@ -143,7 +132,7 @@ export default function TopSellingProducts() {
           </p>
         </div>
         {/* 3rd product  */}
-        <div className={`${satoshi.className} hidden md:block`}>
+        <div className={` hidden md:block`}>
           {/* product image */}
           <img
             src="/assets/productSeven.png"
@@ -187,7 +176,7 @@ export default function TopSellingProducts() {
           </p>
         </div>
         {/* 4th product  */}
-        <div className={`${satoshi.className}  hidden md:block`}>
+        <div className={`  hidden md:block`}>
           {/* product image */}
           <img
             src="/assets/productEight.png"
@@ -245,7 +234,7 @@ export default function TopSellingProducts() {
       {/* button div  */}
       <div className="flex justify-center items-center">
         <button
-          className={`md:w-[218px] md:h-[52px] w-[358px] h-[46px] rounded-[62px] py-4 px-[54px] border-[1px] border-[#0000001A] md:text-base text-sm font-medium md:leading-[21.6px] leading-[18.9px] hover:bg-black hover:text-white transition-colors duration-300  ${satoshi.className} md:mt-10 mt-6`}
+          className={`md:w-[218px] md:h-[52px] w-[358px] h-[46px] rounded-[62px] py-4 px-[54px] border-[1px] border-[#0000001A] md:text-base text-sm font-medium md:leading-[21.6px] leading-[18.9px] hover:bg-black hover:text-white transition-colors duration-300 md:mt-10 mt-6`}
         >
           View All
         </button>
